@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     moveSquare();
-    setInterval(moveSquare, 750);  // 100 rapidisimo, + alto mas lento(500)
+    setInterval(moveSquare, 700);  // 100 rapidisimo, + alto mas lento(500)
 
     // Ensure the square adjusts its position if the screen size changes
     window.addEventListener('resize', moveSquare);
